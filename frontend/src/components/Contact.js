@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import {db} from './firebase/firebase';
+import emailjs from 'emailjs-com';
 const Contact = () => {
 
 const [name,setName]=useState("");
@@ -21,6 +22,14 @@ message:message
 .catch((error)=>{
   alert(error.message);
 });
+
+emailjs.sendForm('service_idqfj4b', 'template_j8mllx7', e.target, 'user_9MKgU0kohp9v5QB8bHsOa')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
 
 setName("")
 setEmail("")

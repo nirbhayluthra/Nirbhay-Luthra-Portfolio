@@ -9,6 +9,8 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "autoprefixer": "^9.8.6",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "lottie-web": "^5.7.5",
     "postcss": "^7.0.35",
     "react": "^17.0.1",
