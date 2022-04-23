@@ -23,8 +23,7 @@ const Hero = () => {
         <div className='NameandAll'>
         <h1 className='text-5xl font-bold md:text-7xl'>Hey, I am Nirbhay Luthra</h1>
         <p className='tracking-wide leading-relaxed'>
-          I love Solving DSA Problems and Making Ineresting Websites.
-          I am a Btech undergrad studing in MAIT(GGSIPU) , New Delhi{' '}
+          I am a Software Engineer{' '}
         </p>
       </div>
       <div className='DancePic'>
